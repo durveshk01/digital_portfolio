@@ -64,6 +64,25 @@ h2 {
   line-height: 1.4;
 }
 
+#projects {
+    text-align: center;
+    padding: 40px;
+}
+
+#projects .card {
+    border: 1px solid #ff6b6b;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    background-color: white;
+    transition: 0.3s;
+}
+
+#projects .card:hover {
+    transform: translateY(-5px);
+}
+
 .bar {
   width: 70%;
   height: 8px;
