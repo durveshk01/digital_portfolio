@@ -128,3 +128,31 @@ html {
     width: 90%;
     background-color: #fdfdfd;
 }
+.skill{
+    border:1px solid #c62828;
+    border-radius:10px;
+    padding:15px;
+    margin:15px auto;
+    width:80%;
+}
+.skill:hover{
+    transform: translateY(-5px);
+    background:#fff0f0;
+    box-shadow:0 4px 12px rgba(198,40,40,0.2);
+    transition:0.3s;
+}
+
+#contact{
+    width:fit-content;
+    margin:40px auto;
+    border:1px solid #c62828;
+    border-radius:10px;
+    padding:30px 50px;
+    background:#fdfdfd;
+}
+
+#contact:hover{
+    transform:translateY(-5px);
+    box-shadow:0 4px 12px rgba(198,40,40,.2);
+    transition:.3s;
+}
